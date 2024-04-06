@@ -9,7 +9,7 @@ void Animation::drawRight(const char** art, int size, int state)
     {
         system("cls");
 
-        for (int i = 0; i < bodyY; ++i) // Изменено условие на увеличение
+        for (int i = 0; i < bodyY; ++i) 
         {
             std::cout << std::endl;
         }
@@ -35,7 +35,7 @@ void Animation::drawLeft(const char** art, int size, int state)
     {
         system("cls");
 
-        for (int i = 0; i < bodyY; ++i) // Изменено условие на увеличение
+        for (int i = 0; i < bodyY; ++i) 
         {
             std::cout << std::endl;
         }
@@ -60,7 +60,7 @@ void Animation::drawUp(const char** art, int size, int state)
     {
         system("cls");
         bodyY--;
-        for (int i = 0; i < bodyY; ++i) // Изменено условие на увеличение
+        for (int i = 0; i < bodyY; ++i) 
         {
             std::cout << std::endl;
         }
